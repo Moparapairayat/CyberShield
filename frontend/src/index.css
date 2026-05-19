@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #05070f;
+  --panel: rgba(10, 16, 32, 0.78);
+  --text: #e6f6ff;
+  --hud-line: rgba(34, 211, 238, 0.28);
+  --hud-soft: rgba(34, 211, 238, 0.08);
+}
+
+.light {
+  color-scheme: light;
+  --bg: #eef6ff;
+  --panel: rgba(255, 255, 255, 0.78);
+  --text: #0d1726;
+  --hud-line: rgba(14, 165, 233, 0.24);
+  --hud-soft: rgba(14, 165, 233, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.cyber-shell {
+  background:
+    linear-gradient(115deg, rgba(34, 211, 238, 0.08) 0 1px, transparent 1px 18%),
+    linear-gradient(245deg, rgba(163, 230, 53, 0.06) 0 1px, transparent 1px 22%),
+    linear-gradient(135deg, #05070f 0%, #0a1020 46%, #111827 100%);
+}
+
+.light .cyber-shell {
+  background:
+    linear-gradient(115deg, rgba(14, 165, 233, 0.08) 0 1px, transparent 1px 18%),
+    linear-gradient(245deg, rgba(132, 204, 22, 0.08) 0 1px, transparent 1px 22%),
+    linear-gradient(135deg, #f5fbff 0%, #edf7ff 46%, #f8fafc 100%);
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(34, 211, 238, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 88%);
+}
+
+.tactical-backdrop {
+  background:
+    repeating-linear-gradient(90deg, transparent 0 54px, rgba(34, 211, 238, 0.045) 54px 55px, transparent 55px 108px),
+    repeating-linear-gradient(0deg, transparent 0 54px, rgba(163, 230, 53, 0.035) 54px 55px, transparent 55px 108px);
+}
+
+.tactical-backdrop::before,
+.tactical-backdrop::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.tactical-backdrop::before {
+  background:
+    linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.11), transparent),
+    linear-gradient(180deg, transparent, rgba(163, 230, 53, 0.06), transparent);
+  animation: tacticalSweep 10s linear infinite;
+  opacity: 0.8;
+}
+
+.tactical-backdrop::after {
+  background-image: linear-gradient(rgba(255,255,255,0.045) 50%, transparent 50%);
+  background-size: 100% 6px;
+  opacity: 0.18;
+}
+
+.glass-panel {
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: var(--panel);
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+}
+
+.hud-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.hud-panel::before {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    linear-gradient(90deg, var(--hud-line), transparent 18%, transparent 82%, var(--hud-line)),
+    linear-gradient(180deg, var(--hud-line), transparent 16%, transparent 84%, var(--hud-line));
+  content: "";
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.hud-panel::after {
+  position: absolute;
+  left: -30%;
+  top: 0;
+  height: 100%;
+  width: 28%;
+  background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.13), transparent);
+  content: "";
+  transform: skewX(-18deg);
+  animation: panelSweep 5.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.tech-input {
+  background-image:
+    linear-gradient(90deg, rgba(34, 211, 238, 0.14), transparent 24px),
+    linear-gradient(180deg, transparent calc(100% - 1px), rgba(34, 211, 238, 0.28) 1px);
+}
+
+.corner-brackets {
+  background:
+    linear-gradient(var(--hud-line), var(--hud-line)) left top / 24px 1px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) left top / 1px 24px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) right top / 24px 1px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) right top / 1px 24px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) left bottom / 24px 1px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) left bottom / 1px 24px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) right bottom / 24px 1px no-repeat,
+    linear-gradient(var(--hud-line), var(--hud-line)) right bottom / 1px 24px no-repeat;
+}
+
+.neon-border {
+  position: relative;
+}
+
+.neon-border::before {
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.7), rgba(163, 230, 53, 0.42), rgba(251, 61, 93, 0.4));
+  content: "";
+  opacity: 0.55;
+}
+
+.scanline {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanline::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -40%;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, rgba(34, 211, 238, 0.14), transparent);
+  content: "";
+  animation: scan 5s linear infinite;
+}
+
+@keyframes scan {
+  to {
+    top: 120%;
+  }
+}
+
+@keyframes panelSweep {
+  0%,
+  42% {
+    left: -35%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+
+@keyframes tacticalSweep {
+  0% {
+    transform: translateX(-35%) translateY(-18%);
+  }
+  100% {
+    transform: translateX(35%) translateY(18%);
+  }
+}
+
+.cyber-toast {
+  border: 1px solid rgba(34, 211, 238, 0.28);
+  background: rgba(6, 12, 24, 0.92) !important;
+  color: #e6f6ff !important;
+  box-shadow: 0 0 28px rgba(34, 211, 238, 0.25);
+}
+
+.light .cyber-toast {
+  background: rgba(255, 255, 255, 0.94) !important;
+  color: #0f172a !important;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(34, 211, 238, 0.35);
+}

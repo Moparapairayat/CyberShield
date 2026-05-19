@@ -1,0 +1,326 @@
+
+> cybershield@1.0.0 dev
+> concurrently "npm run dev --prefix backend" "npm run dev --prefix frontend"
+
+[0] 
+[0] > cybershield-backend@1.0.0 dev
+[0] > nodemon src/server.js
+[0] 
+[1] 
+[1] > cybershield-frontend@1.0.0 dev
+[1] > vite --host 0.0.0.0
+[1] 
+[0] [33m[nodemon] 3.1.14[39m
+[0] [33m[nodemon] to restart at any time, enter `rs`[39m
+[0] [33m[nodemon] watching path(s): *.*[39m
+[0] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[1] [2m10:35:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[1] 
+[1]   [32m[1mVITE[22m v8.0.11[39m  [2mready in [0m[1m1368[22m[2m[0m ms[22m
+[1] 
+[1]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[1]   [32m➜[39m  [1mNetwork[22m: [36mhttp://169.254.123.233:[1m5173[22m/[39m
+[1]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.104:[1m5173[22m/[39m
+[1]   [32m➜[39m  [1mNetwork[22m: [36mhttp://172.17.128.1:[1m5173[22m/[39m
+[1]   [32m➜[39m  [1mNetwork[22m: [36mhttp://172.19.48.1:[1m5173[22m/[39m
+[1] [2m10:36:09 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:36:09 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mGET /api/health [32m200[0m 2.107 ms - 99[0m
+[1] [2m10:36:52 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:36:52 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[1] [2m10:37:03 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:37:03 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[1] [2m10:37:12 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:37:12 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[1] [2m10:37:20 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:37:20 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[1] [2m10:37:24 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:37:24 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[1] [2m10:37:28 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:37:28 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mPOST /api/auth/admin/login [32m200[0m 480.825 ms - 1762[0m
+[0] [0mGET /api/auth/me [32m200[0m 8.296 ms - 468[0m
+[0] [0mGET /api/dashboard [32m200[0m 67.074 ms - 11623[0m
+[0] [0mGET /api/dashboard [32m200[0m 18.750 ms - 11623[0m
+[0] [0mPOST /api/threats/simulate/bruteforce [32m201[0m 202.883 ms - 22743[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 97.809 ms - 13964[0m
+[1] [2m10:37:37 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:37:37 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 121.041 ms - 16231[0m
+[0] [0mGET /api/dashboard [32m200[0m 23.078 ms - 11854[0m
+[0] [0mGET /api/dashboard [32m200[0m 24.562 ms - 11854[0m
+[0] [0mGET /api/dashboard [36m304[0m 65.961 ms - -[0m
+[0] [0mPOST /api/threats/simulate/bruteforce [32m201[0m 423.370 ms - 26356[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 149.158 ms - 17506[0m
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 401.476 ms - 19838[0m
+[0] [0mGET /api/dashboard [32m200[0m 33.034 ms - 12570[0m
+[0] [0mGET /api/dashboard [32m200[0m 31.018 ms - 12570[0m
+[0] [0mGET /api/dashboard [36m304[0m 27.007 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 38.633 ms - 12570[0m
+[0] [0mGET /api/dashboard [32m200[0m 50.746 ms - 12570[0m
+[0] [0mGET /api/dashboard [32m200[0m 22.375 ms - 12570[0m
+[0] [0mGET /api/dashboard [36m304[0m 30.811 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 22.117 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 66.718 ms - 12570[0m
+[0] [0mGET /api/auth/me [36m304[0m 4.445 ms - -[0m
+[0] [0mGET /api/auth/me [36m304[0m 8.037 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 21.007 ms - 12570[0m
+[1] [2m10:38:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:38:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mGET /api/dashboard [36m304[0m 69.071 ms - -[0m
+[0] [0mPOST /api/threats/simulate/bruteforce [32m201[0m 140.020 ms - 25291[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 58.080 ms - 16453[0m
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 69.065 ms - 18781[0m
+[0] [0mGET /api/dashboard [32m200[0m 19.515 ms - 12374[0m
+[0] [0mGET /api/dashboard [36m304[0m 21.354 ms - -[0m
+[0] [0mPOST /api/threats/simulate/bruteforce [32m201[0m 100.423 ms - 26358[0m
+[0] [0mGET /api/dashboard [32m200[0m 21.391 ms - 12395[0m
+[0] [0mGET /api/dashboard [36m304[0m 23.800 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 20.896 ms - -[0m
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 74.590 ms - 19844[0m
+[0] [0mGET /api/dashboard [32m200[0m 18.260 ms - 12434[0m
+[0] [0mGET /api/dashboard [36m304[0m 24.405 ms - -[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 65.409 ms - 16875[0m
+[0] [0mGET /api/dashboard [32m200[0m 20.984 ms - 12670[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [32m200[0m 16.860 ms - 24387[0m
+[0] [0mGET /api/threats/analytics [32m200[0m 24.077 ms - 1174[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [36m304[0m 10.316 ms - -[0m
+[0] [0mGET /api/threats/analytics [36m304[0m 16.685 ms - -[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [36m304[0m 18.496 ms - -[0m
+[0] [0mGET /api/threats/analytics [36m304[0m 24.764 ms - -[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 17.861 ms - 33512[0m
+[0] [0mGET /api/alerts?level=&limit=40 [36m304[0m 18.609 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 23.180 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 21.580 ms - 12670[0m
+[0] [0mGET /api/dashboard [32m200[0m 15.492 ms - 12670[0m
+[0] [0mPOST /api/auth/login [32m200[0m 269.395 ms - 3027[0m
+[0] [0mGET /api/auth/me [32m200[0m 14.341 ms - 462[0m
+[0] [0mGET /api/dashboard [32m200[0m 35.188 ms - 12087[0m
+[0] [0mGET /api/dashboard [32m200[0m 26.638 ms - 12087[0m
+[0] [0mPOST /api/auth/admin/login [32m200[0m 255.369 ms - 1762[0m
+[0] [0mGET /api/auth/me [32m200[0m 12.056 ms - 468[0m
+[0] [0mGET /api/dashboard [32m200[0m 21.278 ms - 12036[0m
+[0] [0mGET /api/dashboard [32m200[0m 24.628 ms - 12036[0m
+[0] [0mPOST /api/threats/simulate/bruteforce [32m201[0m 86.986 ms - 25291[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 55.685 ms - 17514[0m
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 68.643 ms - 19844[0m
+[0] [0mGET /api/dashboard [32m200[0m 22.133 ms - 12571[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 24.492 ms - 252[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 17.457 ms - 252[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 16.434 ms - 252[0m
+[0] [0mGET /api/dashboard [36m304[0m 23.834 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 27.287 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 18.264 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 19.155 ms - 12571[0m
+[0] [0mGET /api/dashboard [32m200[0m 15.159 ms - 12571[0m
+[0] [0mGET /api/dashboard [36m304[0m 19.178 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 15.036 ms - 12571[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 19.238 ms - 252[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 19.770 ms - 252[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 13.972 ms - 252[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 14.430 ms - 252[0m
+[1] [2m10:41:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/AiAssistant.jsx[22m
+[1] [2m10:41:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/AiAssistant.jsx[22m
+[1] [2m10:42:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/AiAssistant.jsx[22m
+[0] [0mGET /api/dashboard [32m200[0m 40.971 ms - 12571[0m
+[0] [0mGET /api/dashboard [32m200[0m 19.710 ms - 12571[0m
+[0] [0mGET /api/dashboard [36m304[0m 17.293 ms - -[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [32m200[0m 14.368 ms - 24414[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [36m304[0m 11.969 ms - -[0m
+[0] [0mGET /api/threats/analytics [32m200[0m 47.314 ms - 1174[0m
+[0] [0mGET /api/threats/analytics [36m304[0m 33.248 ms - -[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 55.626 ms - 33572[0m
+[0] [0mGET /api/alerts?level=&limit=40 [36m304[0m 19.853 ms - -[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7f7/acknowledge [32m200[0m 25.737 ms - 860[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 11.659 ms - 33571[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7ec/acknowledge [32m200[0m 4.742 ms - 860[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 8.285 ms - 33570[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7e1/acknowledge [32m200[0m 8.057 ms - 860[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 10.137 ms - 33569[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7d6/acknowledge [32m200[0m 4.481 ms - 860[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 10.738 ms - 33568[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7cb/acknowledge [32m200[0m 4.880 ms - 860[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 9.572 ms - 33567[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7c0/acknowledge [32m200[0m 6.769 ms - 860[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 11.547 ms - 33566[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7b4/acknowledge [32m200[0m 7.253 ms - 912[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 16.820 ms - 33565[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a7a9/acknowledge [32m200[0m 4.549 ms - 912[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 11.784 ms - 33564[0m
+[0] [0mPATCH /api/alerts/6a05522e7463dfabe5e1a79e/acknowledge [32m200[0m 7.739 ms - 912[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 11.875 ms - 33563[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 30.036 ms - 252[0m
+[0] [0mGET /api/dashboard/status [32m200[0m 20.104 ms - 252[0m
+[0] [0mGET /api/dashboard [32m200[0m 26.017 ms - 12563[0m
+[0] [0mGET /api/dashboard [36m304[0m 23.241 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 24.098 ms - 12563[0m
+[0] [0mGET /api/dashboard [32m200[0m 21.754 ms - 12563[0m
+[0] [0mGET /api/dashboard [36m304[0m 17.671 ms - -[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [36m304[0m 13.867 ms - -[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [36m304[0m 19.752 ms - -[0m
+[0] [0mGET /api/threats/analytics [36m304[0m 68.268 ms - -[0m
+[0] [0mGET /api/threats/analytics [36m304[0m 22.488 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 20.805 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 21.359 ms - 12563[0m
+[0] [0mGET /api/dashboard [32m200[0m 27.106 ms - 12563[0m
+[0] [0mPOST /api/threats/simulate/bruteforce [32m201[0m 123.616 ms - 25291[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 61.052 ms - 16453[0m
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 60.050 ms - 18781[0m
+[0] [0mGET /api/dashboard [32m200[0m 19.198 ms - 12380[0m
+[0] [0mGET /api/dashboard [32m200[0m 19.488 ms - 12380[0m
+[0] [0mGET /api/dashboard [32m200[0m 20.897 ms - 12380[0m
+[0] [0mGET /api/dashboard [36m304[0m 14.184 ms - -[0m
+[0] [0mPOST /api/threats/simulate/unknown-account [32m201[0m 63.479 ms - 17570[0m
+[0] [0mGET /api/dashboard [32m200[0m 15.514 ms - 12766[0m
+[0] [0mGET /api/dashboard [36m304[0m 19.839 ms - -[0m
+[0] [0mGET /api/dashboard [36m304[0m 16.674 ms - -[0m
+[0] [0mPOST /api/threats/simulate/suspicious-requests [32m201[0m 69.240 ms - 19844[0m
+[0] [0mGET /api/dashboard [32m200[0m 19.293 ms - 12600[0m
+[0] [0mGET /api/dashboard [36m304[0m 20.526 ms - -[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [32m200[0m 18.176 ms - 24337[0m
+[0] [0mGET /api/threats/logs?search=&level=&limit=30 [36m304[0m 14.992 ms - -[0m
+[0] [0mGET /api/threats/analytics [32m200[0m 70.541 ms - 1176[0m
+[0] [0mGET /api/threats/analytics [36m304[0m 14.515 ms - -[0m
+[0] [0mGET /api/alerts?level=&limit=40 [32m200[0m 16.564 ms - 33855[0m
+[0] [0mGET /api/alerts?level=&limit=40 [36m304[0m 19.684 ms - -[0m
+[0] [0mGET /api/dashboard [32m200[0m 17.206 ms - 12600[0m
+[0] [0mGET /api/dashboard [32m200[0m 20.518 ms - 12600[0m
+[0] [0mGET /api/dashboard [36m304[0m 20.578 ms - -[0m
+[0] [401] Invalid email or password.
+[0] [0mPOST /api/auth/login [33m401[0m 283.955 ms - 358[0m
+[0] [401] Invalid email or password.
+[0] [0mPOST /api/auth/login [33m401[0m 248.894 ms - 358[0m
+[0] [401] Invalid email or password.
+[0] [0mPOST /api/auth/login [33m401[0m 247.062 ms - 358[0m
+[0] [401] Invalid email or password.
+[0] [0mPOST /api/auth/login [33m401[0m 244.172 ms - 358[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 242.933 ms - 506[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.633 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 13.022 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 11.316 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.072 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 12.932 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 13.696 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 13.558 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 13.768 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.339 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.203 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 15.038 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 13.933 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 15.530 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 13.670 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.853 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 21.016 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 18.514 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 15.229 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 16.084 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 15.535 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.695 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.559 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.467 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 15.775 ms - 531[0m
+[0] [423] Account temporarily locked due to repeated failed login attempts.
+[0] [0mPOST /api/auth/login [33m423[0m 14.840 ms - 531[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.858 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.244 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.192 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.158 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.203 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.258 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.150 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.174 ms - 42[0m
+[0] [0mPOST /api/auth/login [33m429[0m 0.222 ms - 42[0m
+[0] [0mPOST /api/auth/admin/login [33m429[0m 0.387 ms - 42[0m
+[1] [2m10:46:37 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:46:37 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mPOST /api/auth/admin/login [33m429[0m 0.164 ms - 42[0m
+[1] [2m10:46:44 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:46:44 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[1] [2m10:46:45 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:46:45 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mPOST /api/auth/admin/login [33m429[0m 0.185 ms - 42[0m
+[1] [2m10:47:06 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[1] [2m10:47:06 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[0] [0mPOST /api/auth/admin/login [33m429[0m 0.154 ms - 42[0m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node src/server.js`[39m
+[0] MongoDB connected: 127.0.0.1
+[0] CyberShield API running on http://localhost:5000
+[1] [2m11:25:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/NeonButton.jsx[22m
+[1] [2m11:25:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/NeonButton.jsx[22m
