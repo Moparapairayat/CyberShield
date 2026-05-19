@@ -2,6 +2,16 @@
 
 **An Intelligent AI-Based Cyber Threat Detection and Alert System**
 
+## Assignment Details
+
+| Field | Information |
+|---|---|
+| Student Name | Mopara Pair Ayat |
+| Instructor | Ziana Mehnaz Ruhee |
+| Institution | BITHM College Of Professionals |
+| Level | OTHM Level 4 in IT |
+| Subject Name | Principle of Computer Programming |
+
 CyberShield is a complete MERN stack university CSE/OOP project. It demonstrates JWT authentication, MongoDB persistence, MVC architecture, OOP threat-analysis classes, risk scoring, alert generation, dashboard analytics, PDF reporting, and safe attack simulation.
 
 ## Tech Stack
