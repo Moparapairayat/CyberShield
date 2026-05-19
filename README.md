@@ -248,7 +248,7 @@ GET    /api/reports/threat-report
 11. Dashboard and analytics pages render Chart.js visualizations.
 12. Attack simulator buttons call protected admin API routes and create safe demo events.
 
-## Viva Notes
+## Notes
 
 - `Admin extends User` proves inheritance.
 - `#passwordHash` and `#weights` prove encapsulation.
